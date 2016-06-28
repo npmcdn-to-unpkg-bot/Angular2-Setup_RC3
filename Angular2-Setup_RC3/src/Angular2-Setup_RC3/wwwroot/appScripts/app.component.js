@@ -8,6 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var http_1 = require('@angular/http');
 var core_1 = require('@angular/core');
 var AppComponent = (function () {
     function AppComponent() {
@@ -15,7 +16,10 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>STILL My First Angular 2 App</h1> <br> <h2>But Im Changing This</h2>'
+            template: '<h1>STILL My First Angular 2 App</h1> <br> <h2>But Im Changing This</h2>',
+            providers: [
+                http_1.HTTP_PROVIDERS
+            ]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

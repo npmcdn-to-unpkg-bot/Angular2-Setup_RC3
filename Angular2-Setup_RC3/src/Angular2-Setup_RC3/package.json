@@ -29,7 +29,7 @@
     },
     "devDependencies": {
         "concurrently": "^2.0.0",
-        "typescript": "^1.8.10",
+        "typescript": "1.8.10",
         "gulp": "^3.9.1",
         "path": "^0.12.7",
         "gulp-clean": "^0.3.2",
